@@ -133,6 +133,9 @@ if (!function_exists('distinfo')) {
         $mainver = $matches[0];
 
         switch ($mainver) {
+            case "22.04":
+                $relname = "(Jammy Jellyfish)";
+                break;
             case "20.04":
                 $relname = "(Focal Fossa)";
                 break;
